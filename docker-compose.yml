@@ -1,4 +1,4 @@
-version: 3.7
+version: '3.7'
 
 services:
 
@@ -42,7 +42,7 @@ services:
     networks:
       - my-network
     depends_on:
-      -db
+      - db
       - web
 
 volumes:
